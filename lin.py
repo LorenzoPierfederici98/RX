@@ -8,7 +8,7 @@ import riprod as rip
 tempo di ritardo per ogni kVp."""
 
 PATH = 'C:/Users/Lorenzo/Desktop/Lab/RX'
-FILENAME = '60kVp.txt'
+FILENAME = '100kVp.txt'
 
 PATH = os.path.join(PATH, FILENAME)
 
@@ -21,7 +21,7 @@ N = 6 #numero di misure per kVp in riprod.py
 
 #SWITCH 0 tempo fissato e considero D_I e err_I
 #SWITCH 1 corrente fissata e considero D_t e err_t
-SWITCH = 1
+SWITCH = 0
 
 FILENAME = FILENAME.replace('.txt', '')
 if FILENAME == '40kVp':

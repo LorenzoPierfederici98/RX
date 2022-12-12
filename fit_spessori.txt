@@ -1,0 +1,21 @@
+#Fit della dose misurata in funzione degli spessori massici a diversi kVp, I = 100 mA, t = 100 ms
+#con la funzione esponenziale a*exp(-b*t), con b coefficiente di attenuazione dell'Al.
+#Lo spessore emivalente è calcolato come HVL = ln(2)/b.
+
+a = 8.648 +- 0.365 muGy	 b = 1.326 +- 0.045 cm^2/g	 chisq/ndof = 7.67/5	 HVL = 0.523 +- 0.018 g/cm^2	V = 40 kVp
+
+a = 27.149 +- 1.098 muGy	 b = 0.810 +- 0.035 cm^2/g	 chisq/ndof = 9.00/5	 HVL = 0.856 +- 0.037 g/cm^2	V = 60 kVp
+
+a = 38.296 +- 1.492 muGy	 b = 0.721 +- 0.034 cm^2/g	 chisq/ndof = 8.96/5	 HVL = 0.962 +- 0.045 g/cm^2	V = 70 kVp
+
+a = 48.863 +- 1.659 muGy	 b = 0.648 +- 0.030 cm^2/g	 chisq/ndof = 7.51/5	 HVL = 1.070 +- 0.049 g/cm^2	V = 80 kVp
+
+a = 61.405 +- 1.855 muGy	 b = 0.584 +- 0.026 cm^2/g	 chisq/ndof = 6.40/5	 HVL = 1.188 +- 0.053 g/cm^2	V = 90 kVp
+
+a = 77.019 +- 1.966 muGy	 b = 0.537 +- 0.022 cm^2/g	 chisq/ndof = 4.88/5	 HVL = 1.290 +- 0.053 g/cm^2	V = 100 kVp
+
+#HVL in mm
+
+HVL(40kVp) = 1.94 +- 0.07 mm	 HVL(60kVp) = 3.17 +- 0.14 mm	 HVL(70kVp) = 3.56 +- 0.17 mm
+
+HVL(80kVp) = 3.96 +- 0.18 mm	 HVL(90kVp) = 4.40 +- 0.20 mm	 HVL(100kVp) = 4.78 +- 0.20 mm
